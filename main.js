@@ -1,0 +1,26 @@
+"use strict";
+exports.__esModule = true;
+var message = "hello world i xad";
+var x = true;
+var num = 2;
+var name = "xad";
+var sentence = "My name is " + name + ". I am a biginner in Typscript";
+var n = null;
+var u = undefined;
+var list1 = [1, 2, 3];
+var list2 = [1, 2, 3];
+var person1 = ["xad", 2];
+var Color;
+(function (Color) {
+    Color[Color["red"] = 0] = "red";
+    Color[Color["green"] = 1] = "green";
+    Color[Color["blue"] = 2] = "blue";
+})(Color || (Color = {}));
+var c = Color.green;
+var randomValue = 10;
+randomValue = true;
+randomValue = "xad";
+var myVariable = 10;
+// myVariable();
+// myVariable.toUpperCase();
+console.log(myVariable.name);
